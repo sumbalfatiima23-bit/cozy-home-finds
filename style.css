@@ -139,6 +139,11 @@ img{max-width:100%;display:block;}
   background:linear-gradient(135deg,var(--sage),var(--navy));
   display:flex;align-items:center;justify-content:center;
   font-size:34px;
+  overflow:hidden;
+}
+.post-thumb img{
+  width:100%;height:100%;
+  object-fit:cover;
 }
 .post-card .body{padding:20px 20px 24px;}
 .post-card .tag{
